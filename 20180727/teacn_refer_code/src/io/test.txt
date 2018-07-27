@@ -1,0 +1,72 @@
+ ///
+ /// @file    io2.cc
+ /// @author  lemon(haohb13@gmail.com)
+ /// @date    2018-07-27 14:47:59
+ ///
+ 
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <vector>
+
+using std::cout;
+using std::endl;
+using std::vector;
+
+using std::string;
+using std::ifstream;
+using std::ofstream;
+using std::fstream;
+
+
+vector<string> file;
+
+void test0(void)
+{
+	//文件输入流要求打开的文件必须存在
+	//ifstream ifs("test.txt");
+	ifstream ifs("io2.cc");
+	if(!ifs) 
+	{
+		cout << "ifstream open error!" << endl;
+		return ;
+	}
+	
+	string line;
+	//while(ifs >> s1)  //以空格作为分隔符
+	while(std::getline(ifs, line)) // 通过输入流获取一行数据
+	{
+		file.push_back(line);
+	}
+
+	for(auto & line : file) {
+		cout << line << "\n";
+	}
+
+	ifs.close();
+}
+
+void test1(void)
+{
+	test0();
+	string filename = "test.txt";
+
+	//文件不存在就创建一个；
+	ofstream ofs(filename);
+	if(!ofs.good()) {
+		cout << "ofstream open error!" << endl;
+		return ;
+	}
+	for(auto  & line : file)
+	{
+		ofs << line << "\n";
+	}
+}
+ 
+int main(void)
+{
+	//test0();
+	test1();
+	return 0;
+}
+this is a new linethis is a new linethis is a new linethis is a new linethis is a new line
