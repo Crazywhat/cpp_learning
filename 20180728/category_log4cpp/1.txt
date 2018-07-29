@@ -1,0 +1,4 @@
+2018-07-29 10:14:21,080: ERROR infoCategory : error , error , error ! Do you konw ?!
+1532831573 INFO sub1 : system is running
+1532831573 WARN sub1 : I have a dream , e...  , a warning
+1532831573 ERROR sub1 : error , error , error ! Do you konw ?!

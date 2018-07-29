@@ -1,0 +1,1 @@
+2018-07-29 10:14:21,080: ERROR infoCategory : error , error , error ! Do you konw ?!
