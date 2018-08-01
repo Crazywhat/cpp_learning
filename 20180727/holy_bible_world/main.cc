@@ -1,4 +1,5 @@
 #include <strings.h>
+#include <ctype.h>
 
 #include <algorithm>
 #include <vector>
@@ -60,11 +61,15 @@ void Dictionary::except_other(char* all_text)
 {
 	char *pt=all_text;
 	while(*pt){
-		if(*pt >= 'A' && *pt <= 'Z')
+		if(islower(*pt)||(*pt))
+		{
+		
+		}
+		else if(isupper(*pt))
 		{
 			*pt+=32;
 		}
-		else if(!(' '==*pt || (*pt >= 'a' && *pt <= 'z')) )
+		else
 		{
 			*pt = ' ';
 		}
