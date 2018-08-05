@@ -8,3 +8,5 @@
 //3.用宏实现显示文件名，函数名，行号，实现在file_line_macro.h
 
 //4.可用main.cc进行测试
+
+编译时连接 -llog4cpp

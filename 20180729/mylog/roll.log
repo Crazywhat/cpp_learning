@@ -1,0 +1,28 @@
+2018-08-04 21:08:50,701: INFO rootCategory : hello info ##FILE:main.cc; FUC: main; LINE: 6 ##
+2018-08-04 21:08:50,702: DEBUG rootCategory : hello debug ##FILE:main.cc; FUC: main; LINE: 7 ##
+2018-08-04 21:08:50,704: ERROR rootCategory : hello error ##FILE:main.cc; FUC: main; LINE: 8 ##
+2018-08-04 21:08:50,705: WARN rootCategory : hello warn ##FILE:main.cc; FUC: main; LINE: 9 ##
+2018-08-04 21:26:11,989: INFO rootCategory :  ##FILE:main.cc; FUC: main; LINE: 6 ##hello info
+2018-08-04 21:26:11,991: DEBUG rootCategory :  ##FILE:main.cc; FUC: main; LINE: 7 ##hello debug
+2018-08-04 21:26:11,992: ERROR rootCategory :  ##FILE:main.cc; FUC: main; LINE: 8 ##hello error
+2018-08-04 21:26:11,993: WARN rootCategory :  ##FILE:main.cc; FUC: main; LINE: 9 ##hello warn
+2018-08-04 21:27:31,986: INFO rootCategory : [ FILE:main.cc; FUC: main; LINE: 6 ]hello info
+2018-08-04 21:27:31,988: DEBUG rootCategory : [ FILE:main.cc; FUC: main; LINE: 7 ]hello debug
+2018-08-04 21:27:31,990: ERROR rootCategory : [ FILE:main.cc; FUC: main; LINE: 8 ]hello error
+2018-08-04 21:27:31,991: WARN rootCategory : [ FILE:main.cc; FUC: main; LINE: 9 ]hello warn
+2018-08-04 21:28:12,272: INFO rootCategory : [ FILE:main.cc; FUC: main; LINE: 6 ]: hello info
+2018-08-04 21:28:12,273: DEBUG rootCategory : [ FILE:main.cc; FUC: main; LINE: 7 ]: hello debug
+2018-08-04 21:28:12,274: ERROR rootCategory : [ FILE:main.cc; FUC: main; LINE: 8 ]: hello error
+2018-08-04 21:28:12,274: WARN rootCategory : [ FILE:main.cc; FUC: main; LINE: 9 ]: hello warn
+2018-08-04 21:54:16,344: INFO rootCategory : [ FILE:main.cc; FUC: main; LINE: 6 ]: hello info,10,23.450000,\(*=*)/
+2018-08-04 21:54:16,345: DEBUG rootCategory : [ FILE:main.cc; FUC: main; LINE: 7 ]: hello debug
+2018-08-04 21:54:16,345: ERROR rootCategory : [ FILE:main.cc; FUC: main; LINE: 8 ]: hello error
+2018-08-04 21:54:16,346: WARN rootCategory : [ FILE:main.cc; FUC: main; LINE: 9 ]: hello warn
+2018-08-04 21:58:00,989: INFO rootCategory : [ FILE:main.cc; FUC: main; LINE: 6 ]: hello info,10,23.450000,\(*=*)/
+2018-08-04 21:58:00,990: DEBUG rootCategory : [ FILE:main.cc; FUC: main; LINE: 7 ]: hello debug
+2018-08-04 21:58:00,991: ERROR rootCategory : [ FILE:main.cc; FUC: main; LINE: 8 ]: hello error
+2018-08-04 21:58:00,991: WARN rootCategory : [ FILE:main.cc; FUC: main; LINE: 9 ]: hello warn
+2018-08-04 21:59:58,557: INFO rootCategory : [ FILE:main.cc; FUC: main; LINE: 6 ]: hello info,10,23.450000,\(*=*)/
+2018-08-04 21:59:58,558: DEBUG rootCategory : [ FILE:main.cc; FUC: main; LINE: 7 ]: hello debug,\(*=*)/,34.560000,12
+2018-08-04 21:59:58,559: ERROR rootCategory : [ FILE:main.cc; FUC: main; LINE: 8 ]: hello error,89.780000,\(*=*)/,12
+2018-08-04 21:59:58,560: WARN rootCategory : [ FILE:main.cc; FUC: main; LINE: 9 ]: hello warn,123.400000,89,\(*=*)/

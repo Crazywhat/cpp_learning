@@ -64,38 +64,19 @@ void Dictionary::except_other(char* all_text)
 {
 	char *pt=all_text;
 	while(*pt){
-		if(islower(*pt)||isspace(*pt))
+		if(!islower(*pt)&&!isspace(*pt))
 		{
-		
-		}
-		else if(isupper(*pt))
-		{
-			*pt+=32;
-		}
-		else
-		{
-			*pt = ' ';
+			if(isupper(*pt))
+			{
+				*pt += 32;
+			}else{
+				*pt = ' ';
+			}
 		}
 		++pt;
 	}
 }
 
-/*
-void Dictionary::sort_worlds(char* all_text)
-{
-
-	cout << "sort begin " << endl;
-
-	stringstream ss;
-	ss << all_text;
-	string ts;
-	while(ss >> ts)
-	{
-		_worlds.push_back(ts);
-	}
-	//排序
-	sort(_worlds.begin(),_worlds.end());
-}*/
 
 
 void Dictionary::sort_worlds(char* all_text)
@@ -133,38 +114,6 @@ void Dictionary::store(const std::string & filename)
 
 	ofs.close();
 }
-/*
-void Dictionary::store(const std::string & filename)
-{
-	ofstream ofs(filename);
-	if(!ofs)
-	{
-		cout << "out_file open error " << endl;
-		return ;
-	}
-
-	string prestr;
-	int count = 1;
-
-	prestr=_worlds.at(0);
-
-	for(auto str : _worlds)
-	{
-		if(prestr == str)
-		{
-			++count;
-		}
-		else
-		{
-			ofs << prestr << "  " << count << endl;
-			prestr=str;
-			count =1;
-		}
-	}
-	
-	ofs.close();
-}
-*/
 
 int main(int argc, char* argv[])
 {

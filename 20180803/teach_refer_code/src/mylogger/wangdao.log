@@ -1,0 +1,33 @@
+2018-07-30 17:36:26,972 [WARN] this is warn message
+2018-07-30 17:36:26,972 [ERROR] this is warn message
+2018-07-30 17:36:26,972 [INFO] this is warn message
+2018-07-30 17:36:26,972 [DEBUG] this is warn message
+2018-07-30 17:36:58,616 [WARN] this is warn message
+2018-07-30 17:36:58,618 [ERROR] this is warn message
+2018-07-30 17:49:00,620 [WARN] [Test.cc:test2:40] this is warn message
+2018-07-30 17:49:00,620 [ERROR] [Test.cc:test2:41] this is warn message
+2018-07-30 17:53:04,604 [WARN] [Test.cc:test3:42] this is warn message
+2018-07-30 17:53:04,605 [ERROR] [Test.cc:test3:43] this is error message
+2018-07-30 17:53:21,545 [WARN] [Test.cc:test3:42] this is warn message
+2018-07-30 17:53:21,546 [ERROR] [Test.cc:test3:43] this is error message
+2018-07-30 17:53:21,547 [INFO] [Test.cc:test3:44] this is info message
+2018-07-30 17:53:21,549 [DEBUG] [Test.cc:test3:45] this is debug message
+2018-07-30 17:56:51,768 [WARN] [Test.cc:test3:42] this is warn message
+2018-07-30 17:56:51,768 [WARN] 可变参数 10 11 hello,world
+
+2018-07-30 17:56:51,768 [ERROR] [Test.cc:test3:43] this is error message
+2018-07-30 17:56:51,768 [INFO] [Test.cc:test3:44] this is info message
+2018-07-30 17:56:51,769 [DEBUG] [Test.cc:test3:45] this is debug message
+2018-08-03 11:47:44,781 [WARN] [Test.cc:test3:45] this is warn message, 10, hello,, 1.100000
+
+2018-08-03 11:47:44,806 [ERROR] [Test.cc:test3:46] this is error message
+2018-08-03 11:47:44,806 [INFO] [Test.cc:test3:47] this is info message
+2018-08-03 11:47:44,806 [DEBUG] [Test.cc:test3:48] this is debug message
+2018-08-03 11:49:21,637 [WARN] [Test.cc:test3:45] this is warn message, 10, hello,, 1.100000
+
+2018-08-03 11:49:21,638 [WARN] [Test.cc:test3:46] this is warn message
+2018-08-03 11:49:21,638 [WARN] 可变参数 10 11 hello,world
+
+2018-08-03 11:49:21,639 [ERROR] [Test.cc:test3:47] this is error message
+2018-08-03 11:49:21,639 [INFO] [Test.cc:test3:48] this is info message
+2018-08-03 11:49:21,639 [DEBUG] [Test.cc:test3:49] this is debug message

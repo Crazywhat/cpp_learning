@@ -69,3 +69,4 @@ void Mylogger::info(const char * msg)
 	_logCategory.info(msg);
 
 }
+Mylogger* Mylogger::_mylog=NULL;
