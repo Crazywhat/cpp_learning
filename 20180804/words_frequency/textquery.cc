@@ -57,7 +57,7 @@ void TextQuery::put_word_in_dict(string& ls,int line_id)
 	string word;
 	while(ss>>word)
 	{
-		cout << word << endl;
+		//cout << word << endl;
 		if(_dict.count(word))
 		{
 			++(_dict[word]);

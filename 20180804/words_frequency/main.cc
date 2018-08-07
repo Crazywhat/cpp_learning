@@ -9,10 +9,10 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-int main(void)
+int main(int argc , char* argv[])
 {
 	TextQuery tq;
-	tq.readFile("1.txt");
+	tq.readFile(argv[1]);
 
 	string query_word;
 	while(cin >> query_word)
