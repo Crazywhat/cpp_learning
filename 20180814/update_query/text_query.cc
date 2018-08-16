@@ -2,7 +2,7 @@
 /// @file    query.cc
 /// @date    2018-08-10 11:23:49
 ///
-#include "query.h" 
+#include "text_query.h" 
 #include <iostream>
 using std::cout;
 using std::endl;
